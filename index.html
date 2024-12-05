@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Club Registration Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+       
+        .navbar-custom{
+            background-color: #38464f; 
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link{
+            color: white;
+        }
+        .navbar-custom .nav-link:hover{
+            color: white; 
+        }
+
+        body{
+      background-image: url("rbg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: gill sans, sans-serif;
+      color: white;
+      
+        
+        h1{
+          text-align: center;
+        }
+
+        }
+        .container1{
+          background-color: #485863;
+          border: 4px solid #38464f;
+          border-radius: 15px;
+          margin: 30px;
+          opacity: 80%;
+
+        }
+
+
+        .row{
+          margin-left: 50px;
+        }
+
+        input[type="Checkbox"], label, input[type="Radio"], select, textarea{
+          margin-left: 50px;
+        }
+        
+        button{
+          margin-left: 50px;
+          margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">O. B. Montessori Center</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://obmontessori.edu.ph/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.google.com/maps/place/Operation+Brotherhood+Montessori+Center/@15.1342157,120.3047089,9.92z/data=!4m10!1m2!2m1!1sOB+Montessori+Center,+Inc.!3m6!1s0x3396f237c7d7ec39:0xa3cae61a3f0a87ea!8m2!3d15.1373131!4d120.5971115!15sChpPQiBNb250ZXNzb3JpIENlbnRlciwgSW5jLiIDiAEBkgEKdW5pdmVyc2l0eeABAA!16zL20vMGY1MHM2?entry=ttu&g_ep=EgoyMDI0MTIwMi4wIKXMDSoASAFQAw%3D%3D">Locate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://obmontessori.edu.ph/contact-us">Contact</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="container1">
+  <h1>Robotics Club Registration Form</h1>
+  <form>
+    <div class="form-group">
+      <div class="row">
+        <div class="col-sm-14 col-md-8 col-lg-6 col-xl-5 col-demo m-4">
+          <label for="example_Email">Name</label>
+          <input type="email" class="form-control" id="example_Email">
+        </div>
+        <div class="col-sm-14 col-md-8 col-lg-6 col-xl-5 col-demo m-4">
+          <label for="example_Email">Age</label>
+          <input type="email" class="form-control" id="example_Email">
+        </div>
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+        <div class="col-sm-14 col-md-8 col-lg-6 col-xl-5 col-demo m-4">
+          <label for="example_Email">Email Address</label>
+          <input type="email" class="form-control" id="example_Email">
+        </div>
+        <div class="col-sm-14 col-md-8 col-lg-6 col-xl-5 col-demo m-4">
+          <label for="example_Email">Phone Number</label>
+          <input type="email" class="form-control" id="example_Email">
+        </div>
+    </div>
+
+    <label for="">Preferred Robotics Topics</label> <br>
+    <input type="Checkbox" id="check" name="check"> Programming <br>
+    <input type="Checkbox" id="check" name="check"> Electronics <br>
+    <input type="Checkbox" id="check" name="check"> Mechanicaal Design <br><br>
+
+    <label for="radio">Robotics Experience Level</label> <br>
+    <input type="Radio" id="radio1" name="radio" value="Batch 1"> Beginner <br>
+    <input type="Radio" id="radio2" name="radio" value="Batch 2"> Intermediate <br>
+    <input type="Radio" id="radio2" name="radio" value="Batch 2"> Advanced <br><br>
+
+    <label for="select">Preferred Robotics Project</label><br>
+    <select id="select" name="select">
+      <option value="Project 1">Project 1</option>
+      <option value="Project 2">Project 2</option>
+      <option value="Project 3">Project 3</option>
+      <option value="Project 4">Project 4</option>
+      <option value="Project 5">Project 5</option>
+    </select><br><br>
+
+    <label>Statement of Interest</label><br>
+    <textarea id="textarea" name="textarea" rows="3" cols="35"></textarea><br><br>
+
+    <button type="submit" class="btn btn-primary" style="background-color:#38464f; border: #38464f;s">Submit</button>
+
+  </form>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
